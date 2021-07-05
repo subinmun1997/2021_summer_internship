@@ -15,4 +15,8 @@
 * Smart Home Study
 * 다음주 발표 PPT 만들기
 #### 3일차
-* 개발과장님 피드백 및 질문
+* 개발부장님 피드백
+* Hole Punching 기술 공부 (<a href="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=stallon72&logNo=10140690228">참고</a>)
+* Smart Home Map 기능 구현 (Device안에 집 도면과 가구 위치 포함 + 사용자의 실시간 동선)
+* 기존 음성 제어에서 위치 기반 자동화로 대체할 것인데 어떻게 구현하면 좋을지
+* 내일 연구원님 UI/UX 계획 설명 
