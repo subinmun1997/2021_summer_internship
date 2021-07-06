@@ -24,4 +24,4 @@
 * 연구원님 UI/UX 계획안 설명 및 피드백
 * Webhook 기술 공부
 * UWB, Beacon 개념 파악
-* api 연동 
+* api 연동 개발 
