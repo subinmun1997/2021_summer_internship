@@ -25,3 +25,7 @@
 * Webhook 기술 공부
 * UWB, Beacon 개념 파악
 * api 연동 개발 
+#### 5일차
+* SYNC, QUERY, EXECUTE, DISCONNECT intent 시 JSON 코드 분석
+* Google API Search
+* SmartThings 알아보기
