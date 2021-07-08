@@ -29,3 +29,6 @@
 * SYNC, QUERY, EXECUTE, DISCONNECT intent 시 JSON 코드 분석
 * Google API Search
 * SmartThings 알아보기
+#### 6일차
+* SmartThings API 공부
+* 
