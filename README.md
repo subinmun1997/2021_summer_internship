@@ -35,3 +35,4 @@
 * 7일간 스터디 & 개발 내용 발표 및 피드백(부장님, 대표님, 개발팀장님)
 * UI/UX 수정안 확인
 * OAuth, SmartThings Rooms 봐보기
+* API 연동 및 DB 
