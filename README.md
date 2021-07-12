@@ -39,4 +39,4 @@
 #### 8일차
 * Google Open API 가져와 화면에 띄우기
 * 데이터 DB 저장 및 연동
-* Spring Server 개발에 앞서 기초적인 부분 다시 공부
+* Spring Server 개발에 앞서 기초적인 부분 다시 공부해오기
