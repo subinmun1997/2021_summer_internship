@@ -44,5 +44,11 @@
 *
 #### 10일차
 * Android UI 작업
-* Android Mysql 연동
 * DB 설계
+#### 11일차
+* Android UI 작업
+* MaridDB 설치
+#### 12일차
+* Android UI 작업
+* DB Table 설계 전 요구사항 분석
+
