@@ -51,4 +51,7 @@
 #### 12일차
 * Android UI 작업
 * DB Table 설계 전 요구사항 분석
+#### 13일차
+* Database 테이블 설계
+* DB 개념 공부하기
 
