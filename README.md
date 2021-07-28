@@ -67,4 +67,5 @@
 
 * 어노테이션 @Autowired @Bean @Repository 검색해보기
 * 오류해결?  DAO 불러오는 부분 UserDao userdao = new UserDao() x -> 전역변수로 빼고 @Autowired 어노테이션 추가 UserDao userdao; 으로 수정하니까 Bean 인젝션 잘 됨
+  (<a href="https://namubada.net/98">참고</a>)
 
