@@ -59,9 +59,12 @@
 
 (배운내용/코드 교정받은 코드/내용 정리하기)
 
-|HW(Tool)|SW|설명|
+|Tool(IDE)|개발 내용|설명|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|STS|Spring jdbc를 이용해서 mariaDB(HeidiSQL)값 JSon 형태로 불러오기|lombok, jdbc 설치 |
+|Android Studio|STS와 App 연동(계획)|.|
+|MariaDB(HeidiSQL)|table설계(진행중)|프로젝트 요구사항|
+
+* 어노테이션 @Autowired @Bean @Repository 검색해보기
+* 오류해결?  DAO 불러오는 부분 UserDao userdao = new UserDao() x -> 전역변수로 빼고 @Autowired 어노테이션 추가 UserDao userdao; 으로 수정하니까 Bean 인젝션 잘 됨
 
