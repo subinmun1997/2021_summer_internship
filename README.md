@@ -72,7 +72,7 @@
 * 내 코드
   ```
   @Component
-public class UserDao {
+  public class UserDao {
 	
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
@@ -81,9 +81,9 @@ public class UserDao {
 		String sql = "SELCET name FROM smart_home";
 		return jdbcTemplate.queryForMap(sql);
 	}
-}
+  }
 
-@Autowired
+  @Autowired
 	  public void setDataSource(DataSource dataSource) {
 	    this.jdbcTemplate = new JdbcTemplate(dataSource);
 	  }
