@@ -90,7 +90,8 @@
     ```
 > JSON 형태로 결과 출력하기
   
-  ![Inkedjson형식_LI](https://user-images.githubusercontent.com/52366841/127414929-273ee5e6-2510-47e3-acec-80419b5fc3e9.jpg)
+ ![Inkedjson형식_LI](https://user-images.githubusercontent.com/52366841/127415006-4d83837b-5ce1-4aa1-bf13-72ef92993761.jpg)
+
   
 
 * 어노테이션 @Autowired @Bean @Repository 검색해보기
