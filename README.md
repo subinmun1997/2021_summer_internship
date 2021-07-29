@@ -65,7 +65,7 @@
 |Android Studio|STS와 App 연동(계획)|.|
 |MariaDB(HeidiSQL)|table설계(진행중)|프로젝트 요구사항|
 
-#### ❤️피드백(DAO 코드, MariaDB 연결)
+#### ❤️피드백(DAO 코드, Controller 코드, MariaDB 연결)
 
 ##### 1) DAO code
 
@@ -88,6 +88,40 @@
 	    this.jdbcTemplate = new JdbcTemplate(dataSource);
 	  }
     ```
+    
+##### 2) Controller code
+
+* 내 코드
+  ```
+  @Controller
+  @RequiredArgsConstructor
+  @RequestMapping(value="/test2")
+  public class Test2Controller {
+
+	@Autowired
+	UserDao userdao;
+	
+	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
+	public @ResponseBody String isTest() {
+		
+		return "Test";
+	}
+	
+	@RequestMapping(value="/checkNetwork", method={RequestMethod.GET, RequestMethod.POST})
+	public @ResponseBody String checkNetwork() {
+		
+		return "Network Connection";
+	}
+
+	@RequestMapping(value="/checkUserDao", method={RequestMethod.GET, RequestMethod.POST})
+	public @ResponseBody String checkNetwork() {
+		
+		return userdao.getName(0);
+	}
+  }
+  ```
+
+
 > JSON 형태로 결과 출력하기
   
  ![Inkedjson형식_LI](https://user-images.githubusercontent.com/52366841/127415006-4d83837b-5ce1-4aa1-bf13-72ef92993761.jpg)
