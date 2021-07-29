@@ -65,7 +65,7 @@
 |Android Studio|STS와 App 연동(계획)|.|
 |MariaDB(HeidiSQL)|table설계(진행중)|프로젝트 요구사항|
 
-#### ❤️피드백(DAO 코드, Controller 코드, MariaDB 연결)
+#### ❤️피드백(DAO 코드, Controller 코드, @Configuration, MariaDB 연결)
 
 ##### 1) DAO code
 
@@ -120,7 +120,43 @@
 	}
   }
   ```
+  
+##### 3) @Configuration
 
+* 내 코드
+  ```
+  package kr.co.geoplan.smarthome.config;
+
+  import org.apache.commons.dbcp2.BasicDataSource;
+  import org.springframework.boot.CommandLineRunner;
+  import org.springframework.context.ApplicationContext;
+  import org.springframework.context.annotation.Bean;
+  import org.springframework.context.annotation.Configuration;
+  import org.springframework.core.env.Environment;
+  import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+
+  import lombok.AllArgsConstructor;
+
+  @AllArgsConstructor
+  @Configuration
+  public class DBConfig {
+	
+	private final String DRIVER = "com.mariadb.jdbc.Driver";
+	private final String URL = "geoplan.iptime.org";
+	private String username = "****";
+	private String password = "****";
+
+	@Bean
+	public DataSource dataSource() {
+		BasicDataSource dataSource = new BasicDataSource();
+		dataSource.setDriverClassName(DRIVER);
+		dataSource.setUrl(URL);
+		dataSource.setUsername(username);
+		dataSource.setPassword(password);
+		return dataSource;
+	}
+  }
+  ```
 
 > JSON 형태로 결과 출력하기
   
