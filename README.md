@@ -192,7 +192,7 @@
 |Postman|Cookie 생성해서 보안 인증요청 없이 Controller 접근하도록 하기|Cookie Session Config Http|
 |MariaDB(HeidiSQL)|LoginController 값 JSON 형식으로 입력해서 DB에 로그인 정보 저장히기|Controller Postman HeidiSQL UserDTO|
 
-#### ❤️피드백(Controller 코드, AuthenticationFilter 코드, Postman Cookie)
+#### ❤️피드백(Controller 코드, SecurityConfig 코드, Postman Cookie)
 
 ##### 1) Controller 코드
 
@@ -220,5 +220,19 @@
 		}
 		
 		return result;
+  ```
+  
+##### 2) SecurityConfig 코드
+
+* 내 코드
+  ```
+  http
+	.authorizeRequests()
+	.antMatchers("/").permitAll()
+	.antMatchers("/login/**").permitAll()
+	//.antMatchers("/test/**").permitAll()
+		
+	.anyRequest()
+	.fullyAuthenticated();
   ```
   
