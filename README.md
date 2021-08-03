@@ -195,3 +195,30 @@
 #### ❤️피드백(Controller 코드, AuthenticationFilter 코드, Postman Cookie)
 
 ##### 1) Controller 코드
+
+* 내 코드
+  ```
+  Map<String, Object> result = Maps.newHashMap();
+		try	{
+			LoginResult loginResult = userService.checkLogin(loginDTO);
+			
+			//로그인 SUCCESS시 세션생성
+			if (loginResult == LoginResult.SUCCESS)
+			{
+				UserSessionDTO session = userService.makeSessionId(loginDTO.getEmail());
+				
+				Cookie cookie = new Cookie(Const.SESSION_KEY, session.getSessionId());
+				res.addCookie(cookie);
+			}
+			
+			//로그인 SUCCESS외 는 로그인결과를 전달만한다.
+			result.put("data", loginResult);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			result.put("error", "SERVER ERROR");
+		}
+		
+		return result;
+  ```
+  
