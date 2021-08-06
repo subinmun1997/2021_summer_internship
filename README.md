@@ -236,3 +236,15 @@
 	.fullyAuthenticated();
   ```
   
+##### 3) Postman Cookie
+
+ ![Inkedcookie1_LI](https://user-images.githubusercontent.com/52366841/128447575-3459902a-4ac1-499d-b963-2acf3313ab2a.jpg)
+ 
+ ![Inkedcookie2_LI](https://user-images.githubusercontent.com/52366841/128447616-cfb26153-8922-41ef-9b26-4221a967a430.jpg)
+ 
+ ![Inkedcookie3_LI](https://user-images.githubusercontent.com/52366841/128447640-d661f3c1-93bf-4e1a-9aa0-63a5d5a915ea.jpg)
+ 
+ ![Inkedcookie4_LI](https://user-images.githubusercontent.com/52366841/128447659-0b5f5f8b-9646-4337-9cce-c39f68d67c4c.jpg)
+ 
+ ![Inkedjson형식_LI](https://user-images.githubusercontent.com/52366841/128447671-a5de2693-4f84-49a2-84e0-008fd7eaaa32.jpg)
+  
