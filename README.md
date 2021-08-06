@@ -254,6 +254,7 @@
 |Tool(IDE)|개발 내용|키워드|
 |------|---|---|
 |Android Studio|retrofit library 사용하여 서버에서 dto 정보 불러와 android app에 출력하기|retrofit spring android|
+|Android Studio|UI제작||
 
 #### ❤️피드백(android 코드)
 
