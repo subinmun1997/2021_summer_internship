@@ -258,6 +258,67 @@
 
 #### ❤️피드백(android 코드)
 
+* 내 코드
+  ```
+  @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_json_test);
+        tv = findViewById(R.id.tvResult1);
+        b =  findViewById(R.id.button2);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                doJSONParser();
+            }
+        });
+    }
+   ```
+   
+   ```
+   void doJSONParser() {
+        LoginDTO loginInfo = getLoginInfo();
+        retrofitService = RetrofitClient.getClient().create(RetrofitService.class);
+
+        retrofitService.login(loginInfo).enqueue(new ResultDataCallback(this) {
+
+            @Override
+            public void onFailure(Call<ResultData> call, Throwable t) {
+                //int j = 0; dubug test
+            }
+
+            @Override
+            public void onSuccess(Call<ResultData> call, Response<ResultData> response) {
+                ResultData result = response.body();
+                //assert result != null;
+                String vs = (String) result.getData();
+
+                LoginResult rs = LoginResult.valueOf(vs);
+                if(true) {
+                    tv.setText(loginInfo.toString());
+                }
+            }
+        });
+
+        //tv.setText(loginInfo.toString());
+    }
+    ```
+    
+    ```
+    private LoginDTO getLoginInfo() {
+        LoginDTO loginDTO = new LoginDTO();
+        loginDTO.setEmail(email);
+        loginDTO.setPassword(pw);
+        loginDTO.setJoinType(joinType);
+
+        //tv.setText(loginDTO.toString());
+
+        return loginDTO;
+        
+    }
+    ```
+   
+
 💥💥 주의사항
 
 * 실행하기 전에 ip확인
