@@ -246,5 +246,4 @@
  
  ![Inkedcookie4_LI](https://user-images.githubusercontent.com/52366841/128447659-0b5f5f8b-9646-4337-9cce-c39f68d67c4c.jpg)
  
- ![Inkedjson형식_LI](https://user-images.githubusercontent.com/52366841/128447671-a5de2693-4f84-49a2-84e0-008fd7eaaa32.jpg)
-  
+ ![cookie5](https://user-images.githubusercontent.com/52366841/128447768-bafeb608-90b4-4e38-a1c8-c7182147768c.PNG)
