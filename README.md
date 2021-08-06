@@ -247,3 +247,33 @@
  ![Inkedcookie4_LI](https://user-images.githubusercontent.com/52366841/128447659-0b5f5f8b-9646-4337-9cce-c39f68d67c4c.jpg)
  
  ![cookie5](https://user-images.githubusercontent.com/52366841/128447768-bafeb608-90b4-4e38-a1c8-c7182147768c.PNG)
+ 
+
+##### 🖥️ Android Spring Connection
+
+|Tool(IDE)|개발 내용|키워드|
+|------|---|---|
+|Android Studio|retrofit library 사용하여 서버에서 dto 정보 불러와 android app에 출력하기|retrofit spring android|
+
+#### ❤️피드백(android 코드)
+
+💥💥 주의사항
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
