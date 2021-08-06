@@ -323,9 +323,11 @@
 ##### 2) UI
 
 * 기본 틀
+
 ![UI](https://user-images.githubusercontent.com/52366841/128481311-231545a4-ff9f-48f0-a78e-1e8ede2b66fb.PNG)
 
 * 결과
+
 ![android](https://user-images.githubusercontent.com/52366841/128481417-63c2257a-140f-4e15-8461-d49f2749e5b9.PNG)
 
    
