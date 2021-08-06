@@ -3,7 +3,7 @@
 :office: <a href='https://www.geoplan.kr/'>주식회사 GEOPLAN</a> <br>
 :date: 기간 : 2021.07.01 ~ 2021.08.31 <br>
 :hourglass_flowing_sand: AM 09:30 ~ PM 18:30 <br>
-:pencil:배우고 있는것... Spring Framework, IoT, MariaDB, UI/UX  <br> <br>
+:pencil:배우고 있는것... Spring Framework, Android, IoT, MariaDB, UI/UX  <br> <br>
 #### 1일차
 * 부서 배정/ 회사 소개 및 프로젝트 아이디어 소개
 * Google Smart Home과 Assistant간의 관계 및 동작원리 파악 (<a href="https://medium.com/google-developers/jdanielmyers-smart-home-eac8f87fd56e">참고</a>)
@@ -259,6 +259,9 @@
 #### ❤️피드백(android 코드)
 
 💥💥 주의사항
+
+* 실행하기 전에 ip확인
+* Debug 하면서 확인하기!!
 
 
 
