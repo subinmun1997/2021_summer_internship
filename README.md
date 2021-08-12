@@ -337,7 +337,12 @@
 * 실행하기 전에 ip확인
 * Debug 하면서 확인하기!!
 
+##### 🖥️ Android Spring Connection & Alert DB values
 
+|Tool(IDE)|개발 내용|키워드|
+|------|---|---|
+|Android Studio|retrofit library 사용하여 반대로 서버를 통해 DB에 접근하여 값 변경하기|retrofit spring android |
+|Android Studio|UI제작||
 
 
 
